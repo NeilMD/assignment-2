@@ -227,7 +227,6 @@ body{
 
 .panel p {
     font-weight: 200;
-    text-align: justify;
 }
 
 /* Footer Section */
@@ -340,6 +339,15 @@ body{
 **/
 
 @media ( width <= 400px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        line-height: unset;
+    }
     .header-container {
         display: none;
     }
