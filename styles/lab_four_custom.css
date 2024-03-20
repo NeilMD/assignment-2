@@ -101,6 +101,11 @@ body{
     object-fit: contain;
 }
 
+.content-message button a {
+    color: #444;
+    text-decoration: none;
+}
+
 /* Card Section */
 .card-container {
     padding: 3rem 1.5rem;
